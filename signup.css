@@ -1,0 +1,96 @@
+#div1{
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.4vw;
+  width: 65%;
+  background-color: #ffffff;
+  padding-bottom: 4%;
+  padding-top: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border: 5px solid #efffff;
+  border-radius: 3% 10%;
+  margin-top: 10%;
+}
+#butn{
+  border-radius: 5% 20px;
+  width: 80%;
+  font-size: 1.3vw;
+  font-family: 'Fredoka One', cursive;
+  background-color: #22aacc;
+}
+span{
+  font-family: sans-serif;
+  font-size: 1vw;
+}
+#div4{
+  border: 1px solid #33bbdd;
+  border-radius: 5px 20px;
+  padding-top: 1%;
+  padding-bottom: 0.2%;
+  background-color:#33bbdd;
+  margin-bottom: 7%;
+}
+#div2{
+  float:left;
+  width: 50%;
+}
+#div3{
+  float:right;
+}
+.error{
+  color: red;
+}
+#frm{
+  text-align:left;
+}
+#bdy {
+  background-color: #44ccee;
+}
+#name{
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+}
+
+@media only screen and (max-width: 768px) {
+    #div3{
+      width: 40%;
+    }
+     img {
+        width: 100%;
+        float: right;
+    }
+}
+input{
+  padding: 1%;
+  border: 1px solid blue;
+  border-color: lightblue;
+}
+/*
+#fileToUpload{
+  margin-left: 14%;
+  float: left;
+  font-size: 1vw;
+  width: 17%;
+}
+#fileToUpload:hover{
+  cursor: pointer;
+}
+#upload{
+  padding-top: .6%;
+  padding-bottom: .6%;
+  float: right;
+  font-size: 1vw;
+  width: 18%;
+}
+*/
+.nxt{
+  font-size: 1.1vw;
+  margin-left: 17%;
+  margin-top: 10%;
+  float: left;
+}
+#n{
+  margin-left: 2%;
+}
