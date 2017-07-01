@@ -1,11 +1,11 @@
 <?php
 session_start();
 $message = $_POST['sv'];
-$servername="mysql.hostinger.in";
-$username="u110806693_abhi";
+$servername="localhost";
+$username="root";
 $pswd="abhi123.";
 try{
-$conn= new PDO("mysql:host=$servername;dbname=u110806693_mydb", $username, $pswd);
+$conn= new PDO("mysql:host=$servername;dbname=myDB", $username, $pswd);
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 $name=$_SESSION["user"];
 if($message!=""){
